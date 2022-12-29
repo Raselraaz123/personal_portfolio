@@ -17,6 +17,7 @@ font-family: 'Work Sans', sans-serif; */
 }
 body{
   background-image: -webkit-repeating-linear-gradient(rgba(8, 233, 12, 0.37),rgba(91, 56, 123, 0.672));
+ font-family: 'Oswald', sans-serif;
 }
 .nav-container{
   
@@ -47,4 +48,30 @@ color: rgba(5, 254, 209, 0.993);
 }
 .right ul ,a,li:hover{
  color: rgba(5, 254, 209, 0.993);
+}
+.first-container{
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-align: justify;
+ gap: 30px;
+ margin: 50px;
+}
+.right-side-img img{
+  width: 400px;
+}
+.top-title{
+  font-size: 30px;
+}
+.title-name{
+  color: goldenrod;
+}
+.btn-style{
+  margin-top: 10px;
+  padding: 15px 45px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 3px solid goldenrod;
+  background-image: -webkit-linear-gradient(rgba(242, 215, 67, 0.53),rgba(225, 160, 171, 0.566));
 }
