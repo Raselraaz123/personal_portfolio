@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Oswald&display=swap');
+
+
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Oswald&family=Work+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap');
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: -webkit-repeating-linear-gradient(rgba(8, 233, 12, 0.37),rgba(91, 56, 123, 0.672));
+}
+.nav-container{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  height: 30px;
+}
+.left{
+font-size: larger;
+font-family: 'Orbitron', sans-serif;
+letter-spacing: 3px;
+color: rgba(5, 254, 209, 0.993);
+}
+.title-logo{
+
+}
+.right ul ,a,li{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(246, 246, 246);
+  letter-spacing: 3px;
+}
+.right ul ,a,li:hover{
+ color: rgba(5, 254, 209, 0.993);
+}
