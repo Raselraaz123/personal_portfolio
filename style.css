@@ -16,8 +16,9 @@ font-family: 'Work Sans', sans-serif; */
   padding: 0;
 }
 body{
-  background-image: -webkit-repeating-linear-gradient(rgba(8, 233, 12, 0.37),rgba(91, 56, 123, 0.672));
+  background-image: -webkit-repeating-linear-gradient(rgba(227, 22, 172, 0.74),rgba(147, 47, 241, 0.964));
  font-family: 'Oswald', sans-serif;
+ color: rgb(231, 222, 232);
 }
 .nav-body{
    overflow: hidden;
@@ -72,6 +73,9 @@ padding: 20px;
 .top-title{
   color: rgba(71, 233, 244, 0.764);
 }
+.text-color{
+  color: black;
+}
 .bp{
    background-image: url(./images/top-banner.png);
  background-repeat: no-repeat;
@@ -118,4 +122,56 @@ margin-top: 100px;
     transform: rotate(360deg);
     box-shadow: 7px 7px 15px rgba(75, 74, 75, 0.682);
     border-radius: 50%;
+}.exp{
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+.another-section{
+  margin: 100px 50px;
+}
+.first-box{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+
+  
+}
+
+.box-1{
+   padding: 10px;
+  width: 40%;
+  line-height: 25px;
+   border-radius: 10px;
+  border-left: 8px solid;
+  border-image:linear-gradient(rgb(229, 58, 58),rgb(57, 195, 57));
+  border-image-slice:1 ;
+    box-shadow: 10px 10px 15px lightsteelblue;
+}
+.box-2{
+  padding: 10px;
+   width: 40%;
+    line-height: 25px;
+     border-radius: 10px;
+  border-left: 8px solid;
+  border-image:linear-gradient(rgb(243, 168, 168),rgba(62, 236, 62, 0.57));
+  border-image-slice:1 ;
+    box-shadow: 10px 10px 15px lightsteelblue;
+}
+.text{
+  text-align: justify;
+}
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dimgray;
+  height: 50px;
 }
